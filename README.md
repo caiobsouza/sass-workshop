@@ -26,7 +26,7 @@
     width: 300px;
     height: 300px;
 
-    > panel-header{
+    > .panel-header{
       font-size: 20px;
 
       &.colorful{
@@ -39,7 +39,7 @@
       }
     }
 
-    > panel-body{
+    > .panel-body{
       font-family: 'Open Sans', sans-serif;
       padding: 1em;
     }
