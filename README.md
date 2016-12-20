@@ -94,8 +94,8 @@ $i: 6;
 // Não será renderizado 
 ```
 
-## Util Functions
-### Cores e Opacidade
+### Util Functions
+#### Cores e Opacidade
 ``` scss
 // == Cores
 mix($color1, $color2, [$weight]) // Misturar duas cores
@@ -108,20 +108,20 @@ rgba($color, $alpha) //Adicionar canal alpha
 opacify($color, $amount) / fade-in($color, $amount)
 transparentize($color, $amount) / fade-out($color, $amount)
 ```
-### Strings
+#### Strings
 ```
 str-length($string)
 str-slice($string, $start-at, [$end-at])
 to-lower-case($string)
 to-upper-case($string)
 ```
-### Números 
+#### Números 
 ```
 percentage($number)
 round($number)
 random([$limit])
 ```
-### Listas
+#### Listas
 ```
 length($list)
 nth($list, $n)
