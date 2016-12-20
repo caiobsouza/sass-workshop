@@ -1,0 +1,27 @@
+div.container {
+  padding: 1%;
+  width: 100%; }
+  div.container.fluid {
+    padding: 0; }
+  div.container .panel {
+    background: #fff; }
+    div.container .panel > .panel-header {
+      border-bottom: 1px solid gray; }
+    div.container .panel > .panel-body {
+      font-size: 22px;
+      font-size: 1.375rem;
+      padding: 1.1rem; }
+
+.brasil-icon {
+  background-image: url("/images/brasil.png"); }
+
+.alemanha-icon {
+  background-image: url("/images/alemanha.png"); }
+
+.foi7x1-icon {
+  background-image: url("/images/foi7x1.png"); }
+
+.colors {
+  background-color: red;
+  color: white;
+  border-color: red; }

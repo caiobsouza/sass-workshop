@@ -1,0 +1,16 @@
+{
+  "name": "scss-wk",
+  "version": "1.0.0",
+  "description": "workshop",
+  "main": "index.js",
+  "author": "caio.souza",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/caiobsouza/sass-workshop.git"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.0.0"
+  }
+}
