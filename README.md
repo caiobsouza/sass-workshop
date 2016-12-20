@@ -94,7 +94,7 @@ $i: 6;
 // Não será renderizado 
 ```
 
-#### Util Functions
+## Util Functions
 ### Cores e Opacidade
 ``` scss
 // == Cores
