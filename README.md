@@ -4,6 +4,87 @@
 * Node.js / NPM
 > npm install -g node-sass
 
+## Herança
+### Regras aninhadas
+``` scss
+.container{
+  background: #fff;
+  .panel{
+    width: 300px;
+    height: 300px;
+  }
+}
+```
+### Seletores
+``` scss
+.container
+{
+  background: #fff;
+
+  .panel
+  {
+    width: 300px;
+    height: 300px;
+
+    > panel-header{
+      font-size: 20px;
+
+      &.colorful{
+        background: purple;
+        color: #fff;      
+      }
+
+      &:hover{
+        background: pink;
+      }
+    }
+
+    > panel-body{
+      font-family: 'Open Sans', sans-serif;
+      padding: 1em;
+    }
+
+    .container-fluid & {
+      width: 300px;
+    }
+  }  
+}
+```
+### Propriedades aninhadas
+``` scss
+.funky {
+  font: {
+    family: fantasy;
+    size: 30em;
+    weight: bold;
+  }
+}
+```
+### Breakpoints 
+``` scss
+.sidebar {
+  width: 300px;
+  @media screen and (orientation: landscape) {
+    width: 500px;
+  }
+}
+```
+Renderizado:
+``` css
+.sidebar {
+  width: 300px; 
+  }
+  @media screen and (orientation: landscape) {
+    .sidebar {
+      width: 500px; } 
+  }
+```
+### Imports
+``` scss
+@import "foo.scss";
+//ou
+@import "foo";
+```
 ## Elementos
 ### Variáveis
 
