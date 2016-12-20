@@ -43,7 +43,9 @@ $w-color: white;
   @include colors { color: $w-color; }
 }
 ```
-> Links com mixins uteis:  http://zerosixthree.se/8-sass-mixins-you-must-have-in-your-toolbox/
+>Links com mixins uteis:  http://zerosixthree.se/8-sass-mixins-you-must-have-in-your-toolbox
+
+
 ### Functions 
 Retornam valores:
 ``` scss
