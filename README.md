@@ -88,7 +88,7 @@ $i: 6;
   $i: $i - 2;
 }
 ```  
-#### Comentários
+#### Comments
 ``` scss
 /* Será renderizado */
 // Não será renderizado 
@@ -115,13 +115,13 @@ str-slice($string, $start-at, [$end-at])
 to-lower-case($string)
 to-upper-case($string)
 ```
-### Numeros 
+### Números 
 ```
 percentage($number)
 round($number)
 random([$limit])
 ```
-### listas
+### Listas
 ```
 length($list)
 nth($list, $n)
