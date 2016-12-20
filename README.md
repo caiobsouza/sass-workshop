@@ -129,12 +129,12 @@ join($list1, $list2, [$separator])
 ```
 > Outras informações: http://sass-lang.com/documentation/Sass/Script/Functions.html
 
-# Gulp: Automatizador de tarefas
+## Gulp: Automatizador de tarefas
 > npm install -g gulp
 
 > npm install --save-dev gulp gulp-sass
 
-## Configurando projeto
+### Configurando projeto
 Criar `gulpfile.js`
 
 ### Importar modulos do gulp
