@@ -2,6 +2,7 @@
 
 ## Configurando
 * Node.js / NPM
+
 > npm install -g node-sass
 
 ### Compilando
