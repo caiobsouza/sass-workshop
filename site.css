@@ -1,27 +1,102 @@
-div.container {
-  padding: 1%;
-  width: 100%; }
-  div.container.fluid {
-    padding: 0; }
-  div.container .panel {
-    background: #fff; }
-    div.container .panel > .panel-header {
-      border-bottom: 1px solid gray; }
-    div.container .panel > .panel-body {
-      font-size: 22px;
-      font-size: 1.375rem;
-      padding: 1.1rem; }
+a, span {
+  border: 1px solid #fff;
+  color: black; }
 
-.brasil-icon {
-  background-image: url("/images/brasil.png"); }
+.navbar {
+  font-family: "Montserrat", sans-serif; }
+  .container-fluid .navbar {
+    font-size: 1rem;
+    border: 4% solid rgba(255, 192, 203, 0.9); }
+  .navbar.navbar-dark {
+    background: #000; }
+  .navbar ul {
+    list-style: none; }
+    .navbar ul > li {
+      padding: 7px; }
+      .navbar ul > li:hover {
+        -webkit-transition: all 0.2s ease 0.1s;
+        -moz-transition: all 0.2s ease 0.1s;
+        -ms-transition: all 0.2s ease 0.1s;
+        -o-transition: all 0.2s ease 0.1s;
+        transition: all 0.2s ease 0.1s; }
 
-.alemanha-icon {
-  background-image: url("/images/alemanha.png"); }
+.sidebar {
+  width: 300px; }
+  @media screen and (orientation: landscape) {
+    .sidebar {
+      width: 450px; } }
 
-.foi7x1-icon {
-  background-image: url("/images/foi7x1.png"); }
+.unidade-1 {
+  width: 3px; }
+
+.unidade-2 {
+  width: 4px; }
+
+.unidade-3 {
+  width: 5px; }
+
+.unidade-4 {
+  width: 6px; }
+
+.unidade-5 {
+  width: 7px; }
+
+.unidade-6 {
+  width: 8px; }
+
+.unidade-7 {
+  width: 9px; }
+
+.unidade-8 {
+  width: 10px; }
+
+.unidade-9 {
+  width: 11px; }
+
+.unidade-10 {
+  width: 12px; }
+
+.unidade-11 {
+  width: 13px; }
+
+.unidade-12 {
+  width: 14px; }
+
+.unidade-13 {
+  width: 15px; }
+
+.unidade-14 {
+  width: 16px; }
+
+.unidade-15 {
+  width: 17px; }
+
+.unidade-16 {
+  width: 18px; }
+
+.unidade-17 {
+  width: 19px; }
+
+.unidade-18 {
+  width: 20px; }
+
+.unidade-19 {
+  width: 21px; }
+
+.unidade-20 {
+  width: 22px; }
+
+.box {
+  border-top: 1px;
+  border-bottom: 1px;
+  border-left: 1px;
+  border-right: 1px; }
 
 .colors {
   background-color: red;
   color: white;
-  border-color: red; }
+  border-color: red;
+  color: #0176bb; }
+
+a {
+  border: none; }

@@ -1,0 +1,74 @@
+
+.navbar{
+  font-family: $default-fontfamily;
+
+  .container-fluid & {
+    
+    font-size:  calcRem();
+    border: percentage(0.04) solid  rgba(pink,0.9);
+  }
+
+&.navbar-dark{
+  background: #000;
+}
+
+  ul{
+    list-style: none;
+    > li{
+      padding: #{random(56)}px;
+
+      &:hover{
+        @include transition(all .2s ease .1s);
+      }
+    }
+  }
+}
+
+$width: 300px;
+
+.sidebar {
+  width: $width;
+  @media screen and (orientation: landscape) {
+    width: $width * 1.5;
+  }
+}
+
+@for $i from 1 through 20 {
+  .unidade-#{$i} { width: $i + 2px; }
+}
+
+$directions1: "top", "bottom";
+$directions2: "left", "right";
+
+$directions: join($directions1, $directions2);
+
+.box{
+  @each $direction in $directions {
+    border-#{$direction}: 1px;
+  }
+}
+
+
+
+
+$r-color: red;
+$w-color: white;
+@mixin colors($color: blue) {
+  background-color: $color;
+  @content;
+  border-color: $color;
+}
+.colors {
+  @include colors($r-color) { color: $w-color; }
+  color: map-get($cores, "azul");
+}
+
+
+a{
+  border: none;
+  @extend %code;
+}
+
+span{
+  @extend %code;
+}

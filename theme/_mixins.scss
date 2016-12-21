@@ -1,6 +1,27 @@
 @mixin font-size($size){
-    $rem: $size / 16px;
+    $rem: calcRem($size);
     
     font-size: $size;
-    font-size: $rem * 1rem;
+    font-size: $rem;
 }
+
+@function calcRem($s: 16px){
+    $rem: $s / 16px;
+
+    @return $rem * 1rem;
+}
+
+@mixin transition($args...) {
+  -webkit-transition: $args;
+  -moz-transition: $args;
+  -ms-transition: $args;
+  -o-transition: $args;
+  transition: $args;
+}
+
+
+%code{
+ border: 1px solid #fff;
+ color: black;
+}
+

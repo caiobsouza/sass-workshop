@@ -1,42 +1,14 @@
 @import './theme/_variables';
 @import './theme/_mixins';
 
-div.container{
-    padding: 1%;
-    width: 100%;
+@import './theme/navbar';
 
-    &.fluid{
-        padding: 0;        
-    }
 
-    .panel{
-        background: $bg-color;
-        > .panel-header{
-            border-bottom: 1px solid darken($bg-color, 50)
-        }
 
-        > .panel-body{
-            @include font-size(22px);
-            padding: 1.1rem;
-        }
-    }
 
-    
-}
 
-$countries: "brasil", "alemanha", "foi7x1";
-@each $country in $countries {
-  .#{$country}-icon {
-    background-image: url('/images/#{$country}.png');
-  }
-}
-$r-color: red;
-$w-color: white;
-@mixin colors($color: blue) {
-  background-color: $color;
-  @content;
-  border-color: $color;
-}
-.colors {
-  @include colors($r-color) { color: $w-color; }
-}
+
+
+
+
+
