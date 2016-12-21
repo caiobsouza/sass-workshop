@@ -4,6 +4,10 @@
 * Node.js / NPM
 > npm install -g node-sass
 
+### Compilando
+
+> node-sass src/style.scss dest/style.css
+
 ## Herança
 ### Regras aninhadas
 ``` scss
