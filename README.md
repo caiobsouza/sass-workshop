@@ -93,11 +93,22 @@ Renderizado:
 * cores ( blue, #04a3f9, rgba(255, 0, 0, 0.5))
 * booleanos ( true, false)
 * nulls (null)
-* listas separados por espaços ou virgulas (1.5em 1em 0 2em, Helvetica, Arial, sans-serif)
-* maps from one value to another (e.g. (key1: value1, key2: value2))
+* listas separados por espaços ou virgulas (1.5em 1em 0 2em 'ou' Helvetica, Arial, sans-serif)
+* maps: estrutura chave-valor ("width": 1em, "height": 2em)
 
 ``` scss
+//Variável básica
 $variavel : valor; 
+
+//Lista
+$list: "#FFFFFF", "#000333", "#C3C3C3";
+
+//Maps
+$cores: ("azul": #0176bb, "vermelho": #e3413e);
+
+.blue-bg {
+  background-color: map-get($cores, "azul");
+}
 
 ```
 ### Mixins
