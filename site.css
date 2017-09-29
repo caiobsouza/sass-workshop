@@ -12,7 +12,7 @@ a, span {
   .navbar ul {
     list-style: none; }
     .navbar ul > li {
-      padding: 7px; }
+      padding: 42px; }
       .navbar ul > li:hover {
         -webkit-transition: all 0.2s ease 0.1s;
         -moz-transition: all 0.2s ease 0.1s;

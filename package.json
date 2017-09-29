@@ -10,7 +10,13 @@
     "url": "https://github.com/caiobsouza/sass-workshop.git"
   },
   "devDependencies": {
+    "concurrently": "^3.5.0",
     "gulp": "^3.9.1",
-    "gulp-sass": "^3.0.0"
+    "gulp-sass": "^3.1.0",
+    "lite-server": "^2.3.0"
+  },
+  "scripts": {
+    "start": "lite-server",
+    "parallel": "concurrently \"lite-server\" \"gulp\""
   }
 }
